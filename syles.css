@@ -1,0 +1,73 @@
+* {
+    background-color: rgb(87, 190, 87);
+}
+
+header {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: rgb(87, 190, 87);
+}
+.container {
+    text-align: center;
+    background-color: white;
+    margin: 5% 30% 10% 30%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.container p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+.container input {
+    background-color: white;
+    border: 1px solid black;
+    margin: left 5%;
+
+}
+.container label {
+    background-color: white;
+}
+.container select {
+    background-color: white;
+}
+.datos-usuario {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.radio-label {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    
+}
+.checkbox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin:0 0 0 5%;
+
+}
+.labels-checkbox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#text-tarea {
+    background-color: white;
+}
+.button {
+    background-color: rgb(87, 190, 87);
+    margin: 8% ;
+    border-radius: 10%;
+    cursor: pointer;
+}

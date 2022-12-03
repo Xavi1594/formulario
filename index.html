@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./syles.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-<h1>Geek fot geeks survey form</h1>
-</header>on>
-<section class=" datos -usuario">
-<label class="name">
-    Name
-</label>
-<input type="text" value="Put your name " placeholder="Inserte nombre">
-<label class="email">
-    Email
-</label>
-    <input type="email" value="Put your email" placeholder="inserte email">
-<label class="age">
-   Edad
-</label> 
-    <input type="number" value="Enter your age" placeholder="Put your age">
-<label class="description">
-   Which best option describes you?
-</label>
-</section>
-<option value="value1" >Gracioso</option>
-    <select name="descripcion">
-        <option value="value2"> Alto</option>
-        <option value="value3" >Bajo</option>
-    </select> 
-<label class="radio-label">
-    Would you recomend this site?
-</label>
-     <label> <input type="radio" name="recomend" value="Yes"> Yes </label>
-      <label> <input type="radio" name="recomend" value="No"> No </label>
-      <label> <input type="radio" name="recomend" value="Maybe"> Maybe </label>
+        <h1>Geek fot geeks survey form</h1>
+    </header>
+    <div class="container">
+        <section class="datos-usuario">
+            <label class="name">
+                <p>Name</p>
+            </label>
+            <input type="text" value="Put your name " placeholder="Inserte nombre">
+            <label class="email">
+                <p>Email</p>
+            </label>
+            <input type="email" value="Put your email" placeholder="inserte email">
+            <label class="age">
+                <p>Edad</p>
+            </label>
+        </section>
+        <input type="number" value="Enter your age" placeholder="Put your age">
+        <label class="description">
+            <p>Which best option describes you?</p>
+        </label>
+        <select name="descripcion">
+            <option value="value1">Gracioso</option>
+            <option value="value2"> Alto</option>
+            <option value="value3">Bajo</option>
+        </select>
+        <label class="radio-label">
+            <p>Would you recomend this site? </p>
+        
+        <label> <input type="radio" name="recomend" value="Yes"> Yes </label>
+        <label> <input type="radio" name="recomend" value="No"> No </label>
+        <label> <input type="radio" name="recomend" value="Maybe"> Maybe </label>
+    </label>
 
-      <label for="checkbox">
-        Lenguages and frameworks know?
-      </label>
-      
+        <label class="checkbox" for="checkbox">
+            <p>Lenguages and frameworks know?</p>
+            <div class="labels-checkbox">
+            <label><input type="checkbox" id="cbox1"  value="first-checkbox">C</label>
+            <label><input type="checkbox" id="cbox2" value="second-checkbox"> C++</label>
+            <label> <input type="checkbox" id="cbox3" value="third-checkbox">C#</label>
+            <label> <input type="checkbox" id="cbox4" value="fifth-checkbox">JAVA</label>
 
+            <label> <input type="checkbox" id="cbox5" value="sith-checkbox">PYTON</label>
 
+            <label> <input type="checkbox" id="cbox6" value="seventh-checkbox">JAVASCRIPT</label>
+
+            <label> <input type="checkbox" id="cbox7" value="eighth-checkbox">ANGULAR</label>
+
+        </label>
+    </div>
+        <p>Any coments or suggestions</p>
+        <textarea id="text-tarea" name="comentarios" rows="10" cols="40"></textarea>
+        <button class="button" type="submit">Submit</button>
+    </div>
 </body>
-/<html>
+<html>
