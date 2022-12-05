@@ -2,7 +2,7 @@
 ## PROYECTO
 <a href="http://johnnyramirez.es/f5/FORMULARIO-HTML-CSS/prototipo.jpg" target="_blank"><img src="http://johnnyramirez.es/f5/FORMULARIO-HTML-CSS/prototipo.jpg" alt="Prototipo" width="200"></a>
 <a href="http://johnnyramirez.es/f5/FORMULARIO-HTML-CSS/index.jpg" target="_blank"><img src="http://johnnyramirez.es/f5/FORMULARIO-HTML-CSS/index.jpg" alt="Index" width="200"></a>   
-A partir de un prototipo presentado, se nos solicita reproducir un formulario y añadirle la función de mostrar los datos recogidos en la consola de javascript.
+A partir de un prototipo presentado, se nos solicita reproducir un formulario.
 ## PARTES DEL PROYECTO
 ### HTML
 Creamos la estructura necesaria para llevar a cabo el proyecto, atendiendo a la diversidad de campos de formulario necesarios.
